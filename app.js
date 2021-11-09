@@ -1,3 +1,5 @@
+//// organizamos todas las propiedades y metodos dentro de una clase
+
 class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
     this.previousOperandTextElement = previousOperandTextElement
@@ -85,7 +87,7 @@ class Calculator {
   }
 }
 
-
+//// DOM
 const numberButtons = document.querySelectorAll('[data-number]')
 const operationButtons = document.querySelectorAll('[data-operation]')
 const equalsButton = document.querySelector('[data-equals]')
